@@ -64,6 +64,7 @@ spring:
         enabled: false
 ```
 
+nacos.enabled: false就是把nacos-discovery依赖中的NacosLoadBalancerClientConfiguration排除
 同时确保已经接入 Nacos Discovery，并且 `hlb` 这个依赖已被引入。
 
 ## 请求 hint
