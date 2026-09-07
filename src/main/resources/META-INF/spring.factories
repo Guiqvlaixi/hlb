@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    org.raphael.hlb.loadbalancer.HintLoadBalancerAutoConfiguration
